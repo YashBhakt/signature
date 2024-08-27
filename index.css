@@ -1,0 +1,33 @@
+.canvas{
+    border: 2px solid rgb(211, 8, 8);
+}
+.top,.bottom{
+display: flex;
+justify-content: space-between;
+margin: 20px 0 20px 0;
+}
+.block , input,select,button{
+    width: 100%;
+}
+.main{
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+
+.top>block{
+    margin: 10px;
+}
+.bottom>button{
+    margin: 10px ;
+}
+.bottom>p{
+    margin: 10px auto;
+    
+}
+.block>p{
+    width: 50%;
+    margin: 10px auto;
+}
+
